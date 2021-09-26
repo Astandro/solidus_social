@@ -4,7 +4,6 @@ require 'omniauth-google-oauth2'
 require 'deface'
 require 'coffee_script'
 require 'spree/core'
-require 'solidus_social/facebook_omniauth_strategy_ext'
 
 module SolidusSocial
   class Engine < Rails::Engine
