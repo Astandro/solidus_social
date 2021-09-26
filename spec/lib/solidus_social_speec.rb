@@ -4,7 +4,7 @@ RSpec.describe SolidusSocial do
   describe '.configured_providers' do
     subject { described_class.configured_providers }
 
-    it { is_expected.to match_array(["amazon", "facebook", "github", "google_oauth2", "twitter"]) }
+    it { is_expected.to match_array(["google_oauth2"]) }
   end
 
   describe '.init_providers' do
